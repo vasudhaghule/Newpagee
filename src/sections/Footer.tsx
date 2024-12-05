@@ -21,7 +21,7 @@ const Footer = () => {
  <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8">
   {/* For Clients */}
   <div>
-    <div className="flex items-center sm:border-b md:border-none">
+    <div className="flex items-center sm:border-b-white md:border-none">
       <h3 className="text-lg text-white mb-4">For Clients</h3>
       {/* Icon Image */}
       <img
