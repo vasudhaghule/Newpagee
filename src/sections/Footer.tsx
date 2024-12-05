@@ -21,7 +21,7 @@ const Footer = () => {
  <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8">
   {/* For Clients */}
   <div>
-    <div className="flex items-center sm:border-b-white md:border-none">
+    <div className="flex items-center ">
       <h3 className="text-lg text-white mb-4">For Clients</h3>
       {/* Icon Image */}
       <img
@@ -30,7 +30,7 @@ const Footer = () => {
         className="h-[5px] w-[10px] object-contain md:hidden ml-auto"
       />
     </div>
-    <ul className="hidden md:block space-y-2 text-white">
+    <ul className="hidden md:block space-y-2 text-white sm:border-t border-black pt-6">
       <li>How to hire</li>
       <li>Talent Marketplace</li>
       <li>Project Catalog</li>
