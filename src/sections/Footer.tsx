@@ -22,7 +22,7 @@ const Footer = () => {
   {/* For Clients */}
   {/* For Clients */}
 <div>
-  <div className="flex items-center sm:border-b md:border-none border-white border-t-2 w-full pt-4">
+  <div className="flex items-center sm:border-b md:border-none border-white border-b-2 w-full pt-4">
     <h3 className="text-lg text-white mb-4">For Clients</h3>
     <img
       src={rgt.src}
@@ -44,21 +44,7 @@ const Footer = () => {
   </ul>
 </div>
 
-{/* Mobile View Border Additions */}
-<div className="md:hidden border-t-2 border-white w-full pt-6">
-  <ul className="space-y-2 text-white">
-    <li>How to hire</li>
-    <li>Talent Marketplace</li>
-    <li>Project Catalog</li>
-    <li>Hire an agency</li>
-    <li>Enterprise</li>
-    <li>Any Hire</li>
-    <li>Contract-to-hire</li>
-    <li>Direct Contracts</li>
-    <li>Hire worldwide</li>
-    <li>Hire in the USA</li>
-  </ul>
-</div>
+
 
 
   {/* For Talent */}
