@@ -429,21 +429,22 @@ const Footer = () => {
 
 
       
-    <div className="text-white text-sm mt-2 hidden sm:block-border-t border-white pt-6">
-      <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row md:items-center md:justify-between">
-        {/* Copyright Text */}
-        <p className="mb-4 md:mb-0">© 2015 - 2024 Upwork® Global Inc.</p>
+      <div className="text-white text-sm mt-2 sm:border-t md:border-0 border-white pt-6">
+  <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row md:items-center md:justify-between">
+    {/* Copyright Text */}
+    <p className="mb-4 md:mb-0">© 2015 - 2024 Upwork® Global Inc.</p>
 
-        {/* Legal Links */}
-        <ul className="flex flex-col md:flex-row md:space-x-4 space-y-2 md:space-y-0">
-          <li>Terms of Service</li>
-          <li>Privacy Policy</li>
-          <li className="sm:hidden">CA Notice at Collection</li>
-          <li>Cookie Settings</li>
-          <li className="sm:hidden">Accessibility</li>
-        </ul>
-      </div>
-    </div>
+    {/* Legal Links */}
+    <ul className="flex flex-col md:flex-row md:space-x-4 space-y-2 md:space-y-0">
+      <li>Terms of Service</li>
+      <li>Privacy Policy</li>
+      <li className="sm:hidden">CA Notice at Collection</li>
+      <li>Cookie Settings</li>
+      <li className="sm:hidden">Accessibility</li>
+    </ul>
+  </div>
+</div>
+
     </footer>
   );
 };
