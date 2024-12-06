@@ -49,7 +49,7 @@ const Footer = () => {
 
   {/* For Talent */}
   <div>
-    <div className="flex items-center sm:border-b md:border-none border-white w-full pt-4">
+    <div className="flex items-center sm:border-b md:border-none border-white border-b-2 w-full pt-4">
       <h3 className="text-lg text-white mb-4">For Talent</h3>
       {/* Icon Image */}
       <img
