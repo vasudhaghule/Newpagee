@@ -429,7 +429,7 @@ const Footer = () => {
 
 
       
-      <div className="text-white text-sm mt-2 sm:border-t md:border-0 border-white pt-6">
+     <div className="text-white text-sm mt-2 border-t border-white sm:border-0 pt-6">
   <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row md:items-center md:justify-between">
     {/* Copyright Text */}
     <p className="mb-4 md:mb-0">© 2015 - 2024 Upwork® Global Inc.</p>
@@ -444,6 +444,7 @@ const Footer = () => {
     </ul>
   </div>
 </div>
+
 
     </footer>
   );
