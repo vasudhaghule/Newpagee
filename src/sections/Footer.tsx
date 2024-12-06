@@ -102,16 +102,16 @@ const Footer = () => {
       />
     </div>
     <ul className="space-y-2 text-white">
-      <li className="ml-2">About us</li>
-      <li className="ml-2">Leadership</li>
-      <li className="ml-2">Investor relations</li>
-      <li className="ml-2">Careers</li>
-      <li className="ml-2">Our impact</li>
-      <li className="ml-2">Press</li>
-      <li className="ml-2">Contact us</li>
-      <li className="ml-2">Partners</li>
-      <li className="ml-2">Trust, safety & security</li>
-      <li className="ml-2">Modern slavery statement</li>
+      <li className="sm:ml-4 md:ml-0">About us</li>
+      <li className="sm:ml-4 md:ml-0">Leadership</li>
+      <li className="sm:ml-4 md:ml-0">Investor relations</li>
+      <li className="sm:ml-4 md:ml-0">Careers</li>
+      <li className="sm:ml-4 md:ml-0">Our impact</li>
+      <li className="sm:ml-4 md:ml-0">Press</li>
+      <li className="sm:ml-4 md:ml-0">Contact us</li>
+      <li className="sm:ml-4 md:ml-0">Partners</li>
+      <li className="sm:ml-4 md:ml-0">Trust, safety & security</li>
+      <li className="sm:ml-4 md:ml-0">Modern slavery statement</li>
       <div className="flex items-center sm:border-b md:border-none border-white border-b-2 w-full pt-4"></div>
     </ul>
   </div>
