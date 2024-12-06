@@ -21,7 +21,7 @@ const Footer = () => {
  <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8">
   {/* For Clients */}
   <div>
-    <div className="flex items-center ">
+    <div className="flex items-center sm:border-b md:border-none">
       <h3 className="text-lg text-white mb-4">For Clients</h3>
       {/* Icon Image */}
       <img
@@ -30,7 +30,7 @@ const Footer = () => {
         className="h-[5px] w-[10px] object-contain md:hidden ml-auto"
       />
     </div>
-    <ul className="hidden md:block space-y-2 text-white sm:border-t border-black pt-6">
+    <ul className="hidden md:block space-y-2 text-white">
       <li>How to hire</li>
       <li>Talent Marketplace</li>
       <li>Project Catalog</li>
@@ -390,7 +390,7 @@ const Footer = () => {
       </div>
 
       {/* Mobile App Section */}
-      <div className="sm:border-b md:border-none pb-4 mt-10 flex items-center-between space-x-2 md:hidden flex-col ">
+      <div className=" pb-4 mt-10 flex items-center-between space-x-2 md:hidden flex-col ">
         <p className="ml-6 text-white text-lg">Mobile App</p>
         <div className="flex space-x-2 mt-4">
           <div className="ml-4 relative h-[50px] w-[50px] rounded-full overflow-hidden">
@@ -428,46 +428,22 @@ const Footer = () => {
 
 
 
+      
+    <div className="text-white text-sm mt-2 hidden sm:block-border-t border-white pt-6">
+      <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row md:items-center md:justify-between">
+        {/* Copyright Text */}
+        <p className="mb-4 md:mb-0">© 2015 - 2024 Upwork® Global Inc.</p>
 
-      {/* Social Media and Legal Section */}
-      <div className="hidden md:block ml-8  text-white text-lg mt-2 border-t border-black pt-6">
-  <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
-    {/* Left-aligned Legal Section */}
-    <div className="flex items-center-start">
-      {/* Copyright Text */}
-      <p className="text-white text-sm">
-        © 2015 - 2024 Upwork® Global Inc.
-      </p>
-
-      {/* Legal Links */}
-      <ul className="flex space-x-4 text-white text-sm ml-20">
-        <li>Terms of Service</li>
-        <li>Privacy Policy</li>
-        <li>CA Notice at Collection</li>
-        <li>Cookie Settings</li>
-        <li>Accessibility</li>
-      </ul>
+        {/* Legal Links */}
+        <ul className="flex flex-col md:flex-row md:space-x-4 space-y-2 md:space-y-0">
+          <li>Terms of Service</li>
+          <li>Privacy Policy</li>
+          <li className="sm:hidden">CA Notice at Collection</li>
+          <li>Cookie Settings</li>
+          <li className="sm:hidden">Accessibility</li>
+        </ul>
+      </div>
     </div>
-  </div>
-</div>
-
-{/* Social Media and Legal Section */}
-<div className="md:hidden ml-1 text-white text-lg mt-2 border-t border-black pt-6">
-  <div className="max-w-7xl mx-auto px-6 flex flex-col items-start">
-    {/* Copyright Text */}
-    <p className="text-white text-sm mb-4">
-      © 2015 - 2024 Upwork® Global Inc.
-    </p>
-
-    {/* Legal Links in Column */}
-    <ul className="flex flex-col space-y-2 text-white text-sm">
-      <li>Terms of Service</li>
-      <li>Privacy Policy</li>
-      <li>Cookie Settings</li>
-    </ul>
-  </div>
-</div>
-
     </footer>
   );
 };
