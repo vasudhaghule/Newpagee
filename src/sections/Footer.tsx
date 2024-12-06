@@ -112,7 +112,7 @@ const Footer = () => {
       <li className="ml-2">Partners</li>
       <li className="ml-2">Trust, safety & security</li>
       <li className="ml-2">Modern slavery statement</li>
-      <div className="sm:border-b md:border-none border-white w-full pt-4"></div>
+      <div className="flex items-center sm:border-b md:border-none border-white border-b-2 w-full pt-4"></div>
     </ul>
   </div>
 </div>
