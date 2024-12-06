@@ -119,7 +119,7 @@ const Footer = () => {
 </div>
 
 
-<div className="mt-10 flex items-center px-6 space-x-2 mt-20 hidden md:flex">
+<div className="mt-8 flex items-center px-6 space-x-2 mt-20 hidden md:flex">
   <p className="ml-8 text-white text-lg">Follow Us</p>
   <div className="flex space-x-2">
     <div className="relative h-[50px] w-[50px] rounded-full overflow-hidden">
