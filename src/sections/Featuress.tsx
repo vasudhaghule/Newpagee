@@ -145,7 +145,7 @@ const Featuress = () => {
       <div
         className="relative mx-auto mb-10 mt-32 relative">
         {/* Content Container */}
-        <div className="relative flex justify-start max-w-[1300px] h-[640px] mx-auto sm:h-[220px] sm:w-[320px] md:h-[640px] md:w-full">
+        <div className="relative flex justify-start max-w-[1300px] h-[640px] mx-auto sm:h-[120px] sm:w-[220px] md:h-[640px] md:w-full">
           {/* YouTube Video Embed */}
           <iframe
             width="100%"
