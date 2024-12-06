@@ -456,7 +456,7 @@ const Footer = () => {
      <div className="text-white text-sm mt-2 ">
   <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row md:items-center md:justify-between ">
     {/* Copyright Text */}
-    <p className="mb-4 md:mb-0 sm:border-t md:border-0 border-white pt-4">© 2015 - 2024 Upwork® Global Inc.</p>
+    <p className="mb-4 md:mb-0 sm:border-t md:border-0 border-white pt-4 flex items-center sm:border-b md:border-none border-white border-b-2 w-full pt-4">© 2015 - 2024 Upwork® Global Inc.</p>
 
     {/* Legal Links */}
     <ul className="flex flex-col md:flex-row md:space-x-4 space-y-2 md:space-y-0">
