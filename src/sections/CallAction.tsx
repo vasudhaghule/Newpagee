@@ -1,7 +1,7 @@
 'use client';
 
 import Taskimg from "@/assets/Layer.png";
-import Logo from "@/assets/logoo.svg";
+import Logos from "@/assets/logoo.svg";
 import IconPoints from "@/components/IconPoints";
 import one from "@/assets/one.png";
 import two from "@/assets/Two.png";
@@ -19,7 +19,7 @@ export const CallAction = () => {
 
           {/* Logo */}
           <div className="absolute top-[52px] left-6 md:left-14 z-30">
-            <Logo className="h-192.55px w-35.13px" alt="Logo" />
+            <Logos className="h-192.55px w-35.13px" alt="Logo" />
           </div>
 
           {/* Content */}
