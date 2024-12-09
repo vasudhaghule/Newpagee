@@ -22,8 +22,8 @@ const IconPoints: React.FC<IconPointsProps> = ({
       <Image
         src={imageSrc}
         alt="Icon"
-        width={27.32} // Default width for desktop
-        height={27}   // Default height for desktop
+        width={27.17} // Default width for desktop
+        height={27.17}   // Default height for desktop
         className="w-[18px] h-[18px] sm:w-[27px] sm:h-[27px]" // Adjusts the width/height for mobile
         style={{
           marginLeft: "2px 8px 4px 6px",
@@ -33,7 +33,7 @@ const IconPoints: React.FC<IconPointsProps> = ({
       <span
         style={{
           width: "auto", // Automatically adjusts to text content
-          height: "24px",
+          height: "27px",
           fontFamily: "Manrope",
           fontSize: "20px",
           fontWeight: "400",
