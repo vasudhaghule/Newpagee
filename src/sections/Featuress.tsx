@@ -10,18 +10,18 @@ const Featuress = () => {
   return (
     <section className="mt-20 relative">
       {/* Wrapper to control layout */}
-    <div className="relative flex justify-start max-w-[1300px] h-[640px] mx-auto sm:h-[628px] sm:w-[396px] md:h-[640px] md:w-full">
+    <div className="relative flex justify-start max-w-[1400px] h-[635px] mx-auto sm:h-[628px] sm:w-[396px] md:h-[635px] md:w-full">
 
         {/* Content Container */}
         <div className="sm:text-left relative min-h-[699px] max-w-[1000px] flex justify-between items-start border border-black/15 py-20 px-6 rounded-xl overflow-hidden bg-[#FBFBF8]">
           {/* Text Section */}
           <div className="flex-1 pl-14 sm:pl-0 z-10">
-            <h2 className=" sm:text-5xl md:text-6xl tracking-tighter relative z-10 flex flex-col md:flex-row items-start justify-between h-full text-left text-left text-black font-semibold">
+            <h2 className=" sm:text-5xl md:text-[68px] w-[553px] h-[98px] font-medium text-black tracking-tighter  font-semibold">
               Trust and safety features for your protection
             </h2>
 
             <div className="flex items-center mt-14">
-              <div className="relative h-[20px] w-[20px] rounded-full overflow-hidden flex-shrink-0 absolute top-[-16px]">
+              <div className="relative h-[20px] w-[20px] rounded-full overflow-hidden flex-shrink-0 absolute top-[24px]">
                 <img
                   src={Featcirc.src}
                   alt="Circular Background"
@@ -38,12 +38,12 @@ const Featuress = () => {
               </div>
 
               {/* Secure Payments Text */}
-              <div className="ml-4 flex flex-col justify-center">
-                <p className="h-[30px] w-[180px] text-lg  md:text-xl text-black font-medium">
+              <div className="ml-4 ">
+                <p className="h-[30px] w-[181px] text-lg  md:text-[22px] w-[181px] h-[30px] font-medium text-black tracking-tighter  mt-20">
                   Secure payments
                 </p>
                 {/* Additional Text */}
-                <p className="relative flex justify-start max-h-[25px] w-[430px] text-black mt-1 mx-auto sm:h-[20px] sm:w-[312px] md:h-[25px] md:w-full">
+                <p className="  relative flex justify-start max-h-[25px] w-[430px] text-black mt-1 mx-auto sm:h-[20px] sm:w-[312px] md:h-[25px] md:w-full">
   Only release payment when the task is completed to your satisfaction.
 </p>
 
@@ -51,7 +51,7 @@ const Featuress = () => {
             </div>
 
             <div className="flex items-center mt-14">
-              <div className="relative h-[20px] w-[20px] rounded-full overflow-hidden flex-shrink-0 absolute top-[-16px]">
+              <div className="relative h-[20px] w-[20px] rounded-full overflow-hidden flex-shrink-0 absolute top-[-14px]">
                 <img
                   src={Featcirc.src}
                   alt="Circular Background"
@@ -69,7 +69,7 @@ const Featuress = () => {
 
               {/* Trusted ratings and reviews Text */}
               <div className="ml-4 flex flex-col justify-center">
-                <p className="h-[30px] w-[280px] text-lg md:text-xl text-black font-medium">
+                <p className="h-[30px] w-[181px] text-lg  md:text-[22px] w-[284px] h-[30px] font-medium text-black tracking-tighter  mt-2">
                   Trusted ratings and reviews
                 </p>
                 {/* Additional Text */}
@@ -98,7 +98,7 @@ const Featuress = () => {
 
               {/* Insurance for peace of mind Text */}
               <div className="ml-4 flex flex-col justify-center">
-                <p className="h-[30px] w-[280px] text-lg md:text-xl sm:mt-2 text-black font-medium">
+                <p className="h-[30px] w-[181px] text-lg  md:text-[22px] w-[285px] h-[30px] font-medium text-black tracking-tighter  mt-2 ">
                   Insurance for peace of mind
                 </p>
                 {/* Additional Text */}
@@ -110,12 +110,12 @@ const Featuress = () => {
           </div>
 
           {/* Image Section */}
-          <div className="flex-1 relative z-10 w-[343px] h-full hidden md:block">
+          <div className="flex-1 relative z-10 w-[345px] h-[553px] hidden md:block">
   {/* Image section visible only on medium screens and above */}
   <img
     src={Feat.src}
     alt="Task Image"
-    className="object-contain w-full h-full ml-7"
+    className="object-contain w-full h-full ml-10"
   />
 </div>
         </div>
@@ -145,7 +145,7 @@ const Featuress = () => {
       <div
         className="relative mx-auto mb-10 mt-32 relative">
         {/* Content Container */}
-        <div className="relative flex justify-start max-w-[1300px] h-[640px] mx-auto sm:h-auto sm:w-[220px] md:h-[640px] md:w-full">
+        <div className="relative flex justify-start max-w-[1399px] h-[699px] mx-auto sm:h-[220px] sm:w-[360px] md:h-[640px] md:w-full">
           {/* YouTube Video Embed */}
           <iframe
             width="100%"
