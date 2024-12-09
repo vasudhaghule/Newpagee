@@ -17,110 +17,105 @@ import III from "@/assets/iii.png";
 
 const Footer = () => {
   return (
-    <footer className="mt-20 bg-black  py-20 ">
- <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8">
-  {/* For Clients */}
-  {/* For Clients */}
-<div>
-  <div className="flex items-center sm:border-b md:border-none border-white border-t-2 w-full pt-4">
-    <h3 className="text-lg text-white mb-4">For Clients</h3>
-    <img
-      src={rgt.src}
-      alt="Clients Icon"
-      className="h-[7px] w-[12px] object-contain md:hidden ml-0"
-    />
-  </div>
-  <ul className="hidden md:block space-y-2 text-white">
-    <li>How to hire</li>
-    <li>Talent Marketplace</li>
-    <li>Project Catalog</li>
-    <li>Hire an agency</li>
-    <li>Enterprise</li>
-    <li>Any Hire</li>
-    <li>Contract-to-hire</li>
-    <li>Direct Contracts</li>
-    <li>Hire worldwide</li>
-    <li>Hire in the USA</li>
-  </ul>
-</div>
-
-
-
-
-  {/* For Talent */}
-  <div>
-    <div className="flex items-center sm:border-b md:border-none border-white w-full pt-4">
-      <h3 className="text-lg text-white mb-4">For Talent</h3>
-      {/* Icon Image */}
-      <img
-        src={rgt.src}
-        alt="Talent Icon"
-        className="h-[7px] w-[12px] object-contain md:hidden ml-auto"
-      />
+    <footer className="mt-20 bg-black py-20">
+    <div className="w-full  mx-auto px-0 grid grid-cols-1 md:grid-cols-4 gap-8">
+      {/* For Clients */}
+      <div className="pl-10">
+        <div className="flex items-center sm:border-b md:border-none border-white border-t-2 w-full pt-4">
+          <h3 className="text-lg text-white mb-4">For Clients</h3>
+          <img
+            src={rgt.src}
+            alt="Clients Icon"
+            className="h-[7px] w-[12px] object-contain md:hidden ml-0"
+          />
+        </div>
+        <ul className="hidden md:block space-y-2 text-white">
+          <li>How to hire</li>
+          <li>Talent Marketplace</li>
+          <li>Project Catalog</li>
+          <li>Hire an agency</li>
+          <li>Enterprise</li>
+          <li>Any Hire</li>
+          <li>Contract-to-hire</li>
+          <li>Direct Contracts</li>
+          <li>Hire worldwide</li>
+          <li>Hire in the USA</li>
+        </ul>
+      </div>
+  
+      {/* For Talent */}
+      <div className="pl-0">
+        <div className="flex items-center sm:border-b md:border-none border-white w-full pt-4">
+          <h3 className="text-lg text-white mb-4">For Talent</h3>
+          <img
+            src={rgt.src}
+            alt="Talent Icon"
+            className="h-[7px] w-[12px] object-contain md:hidden ml-auto"
+          />
+        </div>
+        <ul className="hidden md:block space-y-2 text-white">
+          <li>How to find work</li>
+          <li>Direct Contracts</li>
+          <li>Find freelance jobs worldwide</li>
+          <li>Find freelance jobs in the USA</li>
+          <li>Win work with ads</li>
+          <li>Exclusive resources with Freelancer Plus</li>
+        </ul>
+      </div>
+  
+      {/* Resources */}
+      <div className="pl-0">
+        <div className="flex items-center sm:border-b md:border-none border-white w-full pt-4">
+          <h3 className="text-lg text-white mb-4">Resources</h3>
+          <img
+            src={rgt.src}
+            alt="Resources Icon"
+            className="h-[7px] w-[12px] object-contain md:hidden ml-auto"
+          />
+        </div>
+        <ul className="hidden md:block space-y-2 text-white">
+          <li>Help & support</li>
+          <li>Success stories</li>
+          <li>Upwork reviews</li>
+          <li>Blog</li>
+          <li>Community</li>
+          <li>Affiliate programme</li>
+          <li>Free Business Tools</li>
+        </ul>
+      </div>
+  
+      {/* Company */}
+      <div className="pl-0">
+        <div className="flex items-center">
+          <h3 className="text-lg text-white mb-4 pt-4">Company</h3>
+          <img
+            src={III.src}
+            alt="Company Icon"
+            className="h-[7px] w-[12px] object-contain md:hidden ml-auto"
+          />
+        </div>
+        <ul className="space-y-2 text-white">
+          <li className="ml-0">About us</li>
+          <li>Leadership</li>
+          <li>Investor relations</li>
+          <li>Careers</li>
+          <li>Our impact</li>
+          <li>Press</li>
+          <li>Contact us</li>
+          <li>Partners</li>
+          <li>Trust, safety & security</li>
+          <li>Modern slavery statement</li>
+          <div className="sm:border-b md:border-none border-white w-full pt-4"></div>
+        </ul>
+      </div>
     </div>
-    <ul className="hidden md:block space-y-2 text-white">
-      <li>How to find work</li>
-      <li>Direct Contracts</li>
-      <li>Find freelance jobs worldwide</li>
-      <li>Find freelance jobs in the USA</li>
-      <li>Win work with ads</li>
-      <li>Exclusive resources with Freelancer Plus</li>
-    </ul>
-  </div>
-
-  {/* Resources */}
-  <div>
-    <div className="flex items-center sm:border-b md:border-none border-white w-full pt-4">
-      <h3 className="text-lg text-white mb-4">Resources</h3>
-      {/* Icon Image */}
-      <img
-        src={rgt.src}
-        alt="Resources Icon"
-        className="h-[7px] w-[12px] object-contain md:hidden ml-auto"
-      />
-    </div>
-    <ul className="hidden md:block space-y-2 text-white">
-      <li>Help & support</li>
-      <li>Success stories</li>
-      <li>Upwork reviews</li>
-      <li>Blog</li>
-      <li>Community</li>
-      <li>Affiliate programme</li>
-      <li>Free Business Tools</li>
-    </ul>
-  </div>
-
-  {/* Company */}
-  <div>
-    <div className="flex items-center ">
-      <h3 className="text-lg text-white mb-4 pt-4">Company</h3>
-      {/* Icon Image */}
-      <img
-        src={III.src}
-        alt="Company Icon"
-        className="h-[7px] w-[12px] object-contain md:hidden ml-auto"
-      />
-    </div>
-    <ul className="space-y-2 text-white">
-      <li className="sm:ml-4 md:ml-0">About us</li>
-      <li className="ml-2">Leadership</li>
-      <li className="ml-2">Investor relations</li>
-      <li className="ml-2">Careers</li>
-      <li className="ml-2">Our impact</li>
-      <li className="ml-2">Press</li>
-      <li className="ml-2">Contact us</li>
-      <li className="ml-2">Partners</li>
-      <li className="ml-2">Trust, safety & security</li>
-      <li className="ml-2">Modern slavery statement</li>
-      <div className="sm:border-b md:border-none border-white w-full pt-4"></div>
-    </ul>
-  </div>
-</div>
+ 
+  
 
 <div className="mt-10 flex items-center px-6 space-x-2 mt-20 hidden md:flex justify-between">
   
   <div className="flex items-center space-x-2">
-    <p className="ml-8 text-white text-lg">Follow Us</p>
+    <p className="px-4 mr-2 text-white text-lg">Follow Us</p>
     <div className="flex space-x-2">
     
       <div className="relative h-[50px] w-[50px] rounded-full overflow-hidden ">
@@ -244,7 +239,7 @@ const Footer = () => {
 
   
   <div className="flex items-center space-x-2">
-    <p className="ml-10 text-white text-lg">Mobile App</p>
+    <p className="ml-10 mr-4 text-white text-lg">Mobile App</p>
     <div className="relative h-[50px] w-[50px] rounded-full overflow-hidden">
       <img
         src={circ.src}
@@ -389,7 +384,7 @@ const Footer = () => {
 
       {/* Mobile App Section */}
       <div className=" pb-4 mt-10 flex items-center-between space-x-2 md:hidden flex-col  ">
-        <p className="ml-6 text-white text-lg">Mobile App</p>
+        <p className="ml-10 text-white text-lg">Mobile App</p>
         <div className="flex space-x-2 mt-4">
           <div className="ml-4 relative h-[50px] w-[50px] rounded-full overflow-hidden">
           <img
@@ -442,31 +437,20 @@ const Footer = () => {
        </div>
         </div>
       </div>
-      
-
-
-
-      
-      <div className="text-white text-sm mt-2">
-  <div className="max-w-7xl mx-auto px-6 md:flex mt-10 md:items-center-between">
-    {/* Copyright Text */}
-
-
-    {/* Legal Links */}
+ 
+     <div className="mt-9 mb-10 flex items-center px-6 space-x-2 mt-20 hidden md:flex justify-between">
+  
+  <div className="flex items-center space-x-2">
     
-    <ul className="flex flex-row space-x-6 mb-0">
-  <li className="mr-20">© 2015 - 2024 Upwork® Global Inc.</li>  {/* Added margin-right for space */}
-  <li >Terms of Service</li>
-  <li >Privacy Policy</li>
-  <li>CA Notice at Collection</li>
-  <li>Accessibility</li>
-</ul>
-
+      <ul className="px-0 mr-2 text-white text-lg flex flex-col md:flex-row md:space-x-6 mb-0">
+        <li className="px-4 mr-6 text-white text-lg mb-2 md:mb-0">© 2015 - 2024 Upwork® Global Inc.</li>
+        <li>Terms of Service</li>
+        <li>Privacy Policy</li>
+        <li>CA Notice at Collection</li>
+        <li>Accessibility</li>
+      </ul>
+    </div>
   </div>
-</div>
-
-
-
 
     </footer>
   );
