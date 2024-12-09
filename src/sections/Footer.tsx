@@ -27,7 +27,7 @@ const Footer = () => {
     <img
       src={rgt.src}
       alt="Clients Icon"
-      className="h-[7px] w-[12px] object-contain md:hidden ml-auto"
+      className="h-[7px] w-[12px] object-contain md:hidden ml-0"
     />
   </div>
   <ul className="hidden md:block space-y-2 text-white">
@@ -117,11 +117,35 @@ const Footer = () => {
   </div>
 </div>
 
+<div className="mt-10 flex items-center px-6 space-x-2 mt-20 hidden md:flex justify-between">
+  
+  <div className="flex items-center space-x-2">
+    <p className="ml-8 text-white text-lg">Follow Us</p>
+    <div className="flex space-x-2">
+    
+      <div className="relative h-[50px] w-[50px] rounded-full overflow-hidden ">
+        <img
+          src={circ.src}
+          alt="Circular Background"
+          className="h-51.96 w-51.96 object-cover"
+        />
+        <div className="absolute inset-0 flex items-center justify-center">
+          <img
+            src={Facec.src}
+            alt="Centered Icon"
+            className="h-[22.27px] w-[22.27px] object-contain"
+          />
+        </div>
+        <div className="absolute inset-0 flex items-center justify-center">
+          <img
+            src={Face.src}
+            alt="Centered Icon"
+            className="h-[15.95px] w-[8.6px] object-contain"
+          />
+        </div>
 
-<div className="mt-10 flex items-center px-6 space-x-2 mt-20 hidden md:flex">
-  <p className="ml-8 text-white text-lg">Follow Us</p>
-  <div className="flex space-x-2">
-    <div className="relative h-[50px] w-[50px] rounded-full overflow-hidden">
+      </div>
+      <div className="relative h-[50px] w-[50px] rounded-full overflow-hidden">
       {/* Circular Background */}
       <img
         src={circ.src}
@@ -131,16 +155,9 @@ const Footer = () => {
       {/* Centered Inner Content */}
       <div className="absolute inset-0 flex items-center justify-center">
         <img
-          src={Facec.src}
+          src={Socialx.src}
           alt="Centered Icon"
-          className="h-[22.27px] w-[22.27px] object-contain"
-        />
-      </div>
-      <div className="absolute inset-0 flex items-center justify-center">
-        <img
-          src={Face.src}
-          alt="Centered Icon"
-          className="h-[15.95px] w-[8.6px] object-contain"
+          className="h-[22.27px] w-[21.79px] object-contain"
         />
       </div>
     </div>
@@ -161,7 +178,6 @@ const Footer = () => {
         />
       </div>
     </div>
-
     <div className="relative h-[50px] w-[50px] rounded-full overflow-hidden">
       {/* Circular Background */}
       <img
@@ -172,13 +188,19 @@ const Footer = () => {
       {/* Centered Inner Content */}
       <div className="absolute inset-0 flex items-center justify-center">
         <img
-          src={Socialx.src}
+          src={Inst.src}
           alt="Centered Icon"
-          className="h-[22.27px] w-[21.79px] object-contain"
+          className="h-[22.27px] w-[22.27px] object-contain"
+        />
+      </div>
+      <div className="absolute inset-0 flex items-center justify-center">
+        <img
+          src={Instc.src}
+          alt="Centered Icon"
+          className="h-[9.9px] w-[9.9px] object-contain"
         />
       </div>
     </div>
-
     <div className="relative h-[50px] w-[50px] rounded-full overflow-hidden">
       {/* Circular Background */}
       <img
@@ -216,43 +238,19 @@ const Footer = () => {
         </div>
       </div>
     </div>
-
-    <div className="relative h-[50px] w-[50px] rounded-full overflow-hidden">
-      {/* Circular Background */}
-      <img
-        src={circ.src}
-        alt="Circular Background"
-        className="h-51.96 w-51.96 object-cover"
-      />
-      {/* Centered Inner Content */}
-      <div className="absolute inset-0 flex items-center justify-center">
-        <img
-          src={Inst.src}
-          alt="Centered Icon"
-          className="h-[22.27px] w-[22.27px] object-contain"
-        />
-      </div>
-      <div className="absolute inset-0 flex items-center justify-center">
-        <img
-          src={Instc.src}
-          alt="Centered Icon"
-          className="h-[9.9px] w-[9.9px] object-contain"
-        />
-      </div>
+      
     </div>
   </div>
 
-  {/* Mobile App Section */}
-  <div className="absolute left-[700px] flex items-center space-x-2">
-    <p className="ml-80 text-white text-lg">Mobile App</p>
+  
+  <div className="flex items-center space-x-2">
+    <p className="ml-10 text-white text-lg">Mobile App</p>
     <div className="relative h-[50px] w-[50px] rounded-full overflow-hidden">
-      {/* Circular Background */}
       <img
         src={circ.src}
         alt="Circular Background"
         className="h-full w-full object-cover"
       />
-      {/* Apple Icon */}
       <div className="absolute inset-0 flex items-center justify-center">
         <img
           src={apple.src}
@@ -260,7 +258,6 @@ const Footer = () => {
           className="h-[19.13px] w-[17.11px] object-contain"
         />
       </div>
-      {/* Apple Tail Icon */}
       <div className="absolute inset-0 flex items-center justify-center">
         <img
           src={appleT.src}
@@ -271,13 +268,11 @@ const Footer = () => {
     </div>
 
     <div className="relative h-[50px] w-[50px] rounded-full overflow-hidden">
-      {/* Circular Background */}
       <img
         src={circ.src}
         alt="Circular Background"
         className="h-full w-full object-cover"
       />
-      {/* Android Icon */}
       <div className="absolute inset-0 flex items-center justify-center">
         <img
           src={AndB.src}
@@ -285,7 +280,6 @@ const Footer = () => {
           className="h-[19.13px] w-[17.11px] object-contain"
         />
       </div>
-      {/* Android Tail Icon */}
       <div className="absolute inset-0 flex items-center justify-center">
         <img
           src={AndT.src}
@@ -453,21 +447,25 @@ const Footer = () => {
 
 
       
-     <div className="text-white text-sm mt-2 ">
-  <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row md:items-center md:justify-between ">
+      <div className="text-white text-sm mt-2">
+  <div className="max-w-7xl mx-auto px-6 md:flex mt-10 md:items-center-between">
     {/* Copyright Text */}
-    <p className="mb-4 md:mb-0 sm:border-t md:border-0 border-white pt-4">© 2015 - 2024 Upwork® Global Inc.</p>
+
 
     {/* Legal Links */}
-    <ul className="flex flex-col md:flex-row md:space-x-4 space-y-2 md:space-y-0">
-      <li>Terms of Service</li>
-      <li>Privacy Policy</li>
-      <li className="sm:hidden">CA Notice at Collection</li>
-      <li>Cookie Settings</li>
-      <li className="sm:hidden">Accessibility</li>
-    </ul>
+    
+    <ul className="flex flex-row space-x-6 mb-0">
+  <li className="mr-20">© 2015 - 2024 Upwork® Global Inc.</li>  {/* Added margin-right for space */}
+  <li >Terms of Service</li>
+  <li >Privacy Policy</li>
+  <li>CA Notice at Collection</li>
+  <li>Accessibility</li>
+</ul>
+
   </div>
 </div>
+
+
 
 
     </footer>
