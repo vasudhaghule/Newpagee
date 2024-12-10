@@ -44,7 +44,7 @@ const Footer = () => {
       </div>
   
       {/* For Talent */}
-      <div className="pl-0">
+      <div className="pl-6">
         <div className="flex items-center sm:border-b md:border-none border-white w-full pt-4">
           <h3 className="text-lg text-white mb-4">For Talent</h3>
           <img
@@ -64,7 +64,7 @@ const Footer = () => {
       </div>
   
       {/* Resources */}
-      <div className="pl-0">
+      <div className="pl-20">
         <div className="flex items-center sm:border-b md:border-none border-white w-full pt-4">
           <h3 className="text-lg text-white mb-4">Resources</h3>
           <img
@@ -85,7 +85,7 @@ const Footer = () => {
       </div>
   
       {/* Company */}
-      <div className="pl-0">
+      <div className="pl-6">
         <div className="flex items-center">
           <h3 className="text-lg text-white mb-4 pt-4">Company</h3>
           <img
@@ -437,7 +437,7 @@ const Footer = () => {
        </div>
         </div>
       </div>
- 
+      
      <div className="mt-9 mb-10 flex items-center px-6 space-x-2 mt-20 hidden md:flex justify-between">
   
   <div className="flex items-center space-x-2">
